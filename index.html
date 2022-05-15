@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div ng-app="app" ng-controller="ColorCtrl" ng-init="updateColors()" class="container">
+        <div class="options">
+            <strong>Options</strong>
+            <div class="btn-group">
+                <a ng-click="toggleColorType()" href="" class="btn btn-primary btn-xs">{{colorType}}</a>
+                <a ng-click="toggleHexCase()" href="" class="btn btn-primary btn-xs">{{hexCase}}</a>
+            </div>
+        </div>
+        <h2>Output Code</h2>
+        <tabset>
+            <tab heading="SCSS">
+                <div hljs source="code.scss" language="scss"></div>
+            </tab>
+            <tab heading="SASS">
+                <div hljs source="code.sass" language="scss"></div>
+            </tab>
+            <tab heading="LESS">
+                <div hljs source="code.less" language="less"></div>
+            </tab>
+            <tab heading="CSS">
+                <div hljs source="code.css" language="css"></div>
+            </tab>
+        </tabset>
+    </div>
+    
+    <div class="styles"></div> -->
+  <!-- <section id="container">
+        <div id="tree">
+            <div class="branch">
+                <div class="entry"><span>Husband</span>
+                    <div class="branch">
+                        <div class="entry"><span>Father</span>
+                            <div class="branch">
+                                <div class="entry"><span>Grandfather</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                                <div class="entry"><span>Grandmother</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry"><span>Mother</span>
+                            <div class="branch">
+                                <div class="entry"><span>Grandfather</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                                <div class="entry"><span>Grandmother</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry"><span>Father</span>
+                            <div class="branch">
+                                <div class="entry"><span>Grandfather</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                                <div class="entry"><span>Grandmother</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="entry"><span>Wife</span>
+                    <div class="branch">
+                        <div class="entry"><span>Father</span>
+                            <div class="branch">
+                                <div class="entry"><span>Grandfather</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                                <div class="entry"><span>Grandmother</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="entry"><span>Mother</span>
+                            <div class="branch">
+                                <div class="entry"><span>Grandfather</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                                <div class="entry"><span>Grandmother</span>
+                                    <div class="branch">
+                                        <div class="entry"><span>Great Grandfather</span></div>
+                                        <div class="entry"><span>Great Grandmother</span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+  </section> -->
+   <input type="checkbox" id="nav-toggle">
+    
+    <div class="sidebar">
+            <div class="sidebar-brand">
+                <h2><span><i class="fab fa-accusoft"></i></span><span id="kleenpulse">философи </span></h2>
+            </div>
+            <div class="sidebar-menu">
+                <ul>
+                    <li>
+                        <a href="#" class="active"><span class="fas fa-cubes"></span>
+                            <span>Эцэг эх, үр хүүхэд хоорондын хайр</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fas fa-users"></span>
+                            <span>Эхийн хайр</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fas fa-clipboard-list"></span>
+                            <span>Янаг амрагийн хайр</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fas fa-shopping-bag"></span>
+                            <span>Ахан дүүсэг хайр</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fas fa-receipt"></span>
+                            <span>Өөрийгөө хайрлахуй</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fa fa-user-circle"></span>
+                            <span>Бурхныг хайрлахуй</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="fas fa-clipboard"></span>
+                            <span></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div class="main-wrapper">
+    <div class="main-content">
+            <header>
+                <h2 class="heading" id="dashboard">
+                Хүний тухай Философи
+                    </h2>
+            </header>
+            <main>
+             
+                <div class="switch" id="switch">
+                </div>
+           
+                <div class="recent-grid">
+                    <div class="projects">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="heading">Хүний үндсэн 3 тал</h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table width="100%">
+                                        <thead>
+                                            <tr>
+                                                <td>Бие</td>
+                                                <td>Сэтгэл</td>
+                                                <td>Оюун</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><span>Л.Фейербах</span></td>
+                                                <td>Ухамсар бол обьектив ертөнцийн субьектив дүр</td>
+                                                <td>
+                                                    <h3 class="special">Зөвхөн гэгээрсэн хүмүүст байдаг</h3>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Хүн бол байгалийн бүтээгдэхүүн</td>
+                                                <td><span>Демокрит</span></td>
+                                                <td>
+                                                    <span>Буддын гүн ухаан</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Мэдрэгч махбод</td>
+                                                <td>Сэтгэл буюу сүнс атомуудаас <br> тогтдог бөгөөд тэдгээрийн задрал <br>үхэлд хүргэдэг</td>
+                                                <td>
+                                                    Үнэнийг таньсан дээд туйлын үр дүн  
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Нэгэн төрлийн махбод</td>
+                                                <td><span>Р.Декарт</span></td>
+                                                <td>
+                                                 <span>Христосын шашин</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td><h2>Зарим сэтгэгч</h2></td>
+                                                <td><span>З.Фрейд</span></td>
+                                                <td>
+                                                    Гэгээлэг болсон сэтгэл
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Авир үйлдлйиг тодорхойлогч</td>
+                                                <td><span>К.Г.Юнг</span></td>
+                                                <td>
+                                                    <span>Рационалист</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>Сэтгэлийн янз бүрийн төлөв</td>
+                                                <td><h2>Хүний гол шинж</h2></td>
+                                                <td>
+                                                    Хүний сэтгэлийн дээд хэв<br> маяг, үнэн мэдлэгийн гол эх сурвалж 
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Оюун ухаан</td>
+                                                <td>
+                                                   
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Бодгаль ухамсаргүй сэтгэл</td>
+                                                <td>
+                                                   
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td>Хамтын ухамсаргүй сэтгэл</td>
+                                                <td>
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                   
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td></td>
+                                                <td></td>
+                                                <td>
+                                                  
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                             <div class="cards">
+                    <div class="card-single card-singles">
+                        <div>
+                            <h1 id="customer"></h1>
+                            <span>Төрлүүд</span>
+                        </div>
+                        <div>
+                            <span class="fas fa-users"></span>
+                        </div>
+                    </div>
+            <h2>Хайрын философи</h2>
+                     <div class="card-single">
+                <div>
+                    <h1 id="customer"></h1>
+                    <span>Нөлөөлөх хүчин зүйлс</span>
+                </div>
+                <div>
+                    <span class="fas fa-shopping-bag"></span>
+                </div>
+            </div>
+                </div>
+                    </div>
+                    
+                    <div class="customers">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="heading">Үндэслэдэг үзлүүд</h3>
+                            </div>
+    
+                            <div class="card-body">
+                                <div class="customer">
+                                    <div class="info">
+                                        <div>
+                                            <h4>
+                                                Натурализм</h4>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="fas fa-user-circle"></span>
+                                        <span class="fas fa-comment"></span>
+                                        <span class="fas fa-phone"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="customer">
+                                    <div class="info">
+                                        <div>
+                                            <h4>Социологичлогч</h4>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                    <span class="fas fa-user-circle"></span>
+                                    <span class="fas fa-comment"></span>
+                                    <span class="fas fa-phone"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="customer">
+                                    <div class="info">
+                                     
+                                        <div>
+                                            <h4>Экзистенциалист</h4>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                    <span class="fas fa-user-circle"></span>
+                                    <span class="fas fa-comment"></span>
+                                    <span class="fas fa-phone"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="customer">
+                                    <div class="info">
+                                        <div>
+                                            <h4>Шашны Философи сургааль</h4>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="fas fa-user-circle"></span>
+                                        <span class="fas fa-comment"></span>
+                                        <span class="fas fa-phone"></span>
+                                    </div>
+                                </div>
+    
+                                <div class="customer">
+                                    <div class="info">
+                                        <div>
+                                            <h4>Оккультизм,эзотеризм</h4>
+                                        </div>
+                                    </div>
+                                    <div class="contact">
+                                        <span class="fas fa-user-circle"></span>
+                                        <span class="fas fa-comment"></span>
+                                        <span class="fas fa-phone"></span>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <div class="cards">
+            <div class="card-single">
+                <div>
+                    <h1 id="customer"></h1>
+                    <span>Санаа тавих</span>
+                </div>
+                <div>
+                    <span class="fas fa-users"></span>
+                </div>
+            </div>
+            <div class="card-single">
+                <div>
+                    <h1 id="customer"></h1>
+                    <span>Хариуцлагатай байх</span>
+                </div>
+                <div>
+                    <span class="fas fa-clipboard"></span>
+                </div>
+            </div>
+            <div class="card-single">
+                <div>
+                    <h1 id="customer"></h1>
+                    <span>Хүндлэл үзүүлэх</span>
+                </div>
+                <div>
+                    <span class="fas fa-shopping-bag"></span>
+                </div>
+            </div>
+            <div class="card-single">
+                <div>
+                      <h1 id="customer"></h1>
+                    <span>Мэдлэгтэй байх</span>
+                </div>
+                <div>
+                    <span class="fab fa-google-wallet"></span>
+                </div>
+            </div>
+        </div>
+            </main>
+            <footer id="footer">
+                <p>Б.Батзориг with <img id="Layer_1" src="https://heptagonindustries.com.ng/wp-content/uploads/2022/04/heart.png">  <span>Оюуны зураглал 2022.05.16 </span></p>
+            </footer>
+    </div>
+    </div>
+        <video class="video-1" src="/img/pexels-cottonbro-7170785.mp4" loop muted
+        autoplay></video>
+  <!-- <script src="app.js"></script> -->
+</body>
+</html>
